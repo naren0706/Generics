@@ -9,6 +9,7 @@ namespace Generics
             Operation operation = new Operation();
             operation.FindMaxInteger(1, 2, 3);
             operation.FindMaxFloat(1f, 2f, 3f);
+            operation.FindMaxString("hello","Hello","HELLO");
         }
     }
 }
