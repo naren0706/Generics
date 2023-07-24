@@ -6,7 +6,8 @@ namespace Generics
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+            Operation operation = new Operation();
+            operation.FindMaxInteger(1, 2, 3);
         }
     }
 }
